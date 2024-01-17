@@ -13,7 +13,8 @@
 		<ApplicationTitle>BugBinding</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.bugbinding</ApplicationId>
+		<ApplicationId>com.satisfit.app</ApplicationId>
+		<ApplicationIdGuid>bfd12d5d-766c-4d1e-8ea4-7e08313d71f3</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -44,6 +45,8 @@
 		<!--<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />-->
+
+		<PackageReference Include="Kebechet.Maui.RevenueCat.iOS" Version="4.31.9" />
 
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
