@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-ios</TargetFrameworks>
+		<TargetFrameworks>net8.0-ios</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<RootNamespace>BugBinding</RootNamespace>
 		<UseMaui>true</UseMaui>
@@ -42,13 +42,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<!--<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />-->
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 
-		<PackageReference Include="Kebechet.Maui.RevenueCat.iOS" Version="4.31.9" />
+		<PackageReference Include="Kebechet.Maui.RevenueCat.iOS" Version="4.31.9-preview1" />
 
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<!--<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />-->
 	</ItemGroup>
 
 </Project>
